@@ -1,13 +1,36 @@
 body{
 
-font-family: 'Oswald', sans-serif;
+
 font-family: 'Open Sans', sans-serif;
 }
 
+.fondoNav{
+  background-color: #660066;
+}
+
 header{
-  background-image: url('../img/Foto_Destacada.jpg');
+  background-image: url('../img/bg_hero.png');
   background-repeat: no-repeat;
   background-size: cover;
-  padding-bottom: 25rem;
+  height:100vh;
 
+}
+.SoyYo{
+  padding-top: 400px;
+  font-family: 'Oswald', sans-serif;
+
+}
+
+.SoyYo h1{
+  font-size: 72px;
+}
+
+}
+.SoyYo span{
+  font-size: 72px
+
+}
+
+.interline{
+  line-height:35px;
 }
