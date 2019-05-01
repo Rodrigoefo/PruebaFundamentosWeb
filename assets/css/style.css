@@ -4,7 +4,7 @@ body{
 font-family: 'Open Sans', sans-serif;
 }
 
-.fondoNav{
+.fondoNav,  footer{
   background-color: #660066;
 }
 
@@ -62,5 +62,47 @@ header{
 
 .colorCards h2{
   font-family: 'Oswald', sans-serif;
-  font-size: 35px;
+  font-size: 52px;
+}
+
+.colorCards hr{
+  height: 0px;
+    border: none;
+    border-top: 2px solid white;
+}
+
+.MiExperiencia hr {
+  height: 0px;
+    border: none;
+    border-top: 2px solid black;
+}
+
+.formularioLetra h2 {
+  font-family: 'Oswald', sans-serif;
+  font-size: 52px;
+}
+
+.formularioLetra hr {
+  height: 0px;
+    border: none;
+    border-top: 2px solid black;
+}
+
+footer{
+  height: 120px
+
+}
+
+footer h2 {
+  font-family: 'Oswald', sans-serif;
+  font-size: 40px;
+
+
+}
+footer a {
+  color:#ffffff;
+}
+
+footer i {
+  padding: 8px;
 }
