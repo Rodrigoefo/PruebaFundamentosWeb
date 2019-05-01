@@ -13,10 +13,11 @@ header{
   background-repeat: no-repeat;
   background-size: cover;
   height:100vh;
+  background-position: center;
 
 }
 .SoyYo{
-  padding-top: 400px;
+  padding-top: 300px;
   font-family: 'Oswald', sans-serif;
 
 }
@@ -33,4 +34,33 @@ header{
 
 .interline{
   line-height:35px;
+}
+
+.MiExperiencia h2{
+  font-family: 'Oswald', sans-serif;
+  font-size: 52px;
+}
+
+
+.colorIcons i{
+  color: #660066;
+}
+.colorIcons h3{
+  font-family: 'Oswald', sans-serif;
+  font-size: 25px;
+  ;
+}
+
+.colorIcons p{
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 300;
+}
+
+.colorCards{
+  background-color: #660066;
+}
+
+.colorCards h2{
+  font-family: 'Oswald', sans-serif;
+  font-size: 35px;
 }
