@@ -5,7 +5,7 @@ font-family: 'Open Sans', sans-serif;
 }
 
 .fondoNav,  footer{
-  background-color: #343a40;
+  background-color: #000000;
 }
 
 header{
@@ -15,22 +15,41 @@ header{
   height:100vh;
   background-position: center;
 
+
 }
+
+
+
 .SoyYo{
   padding-top: 300px;
   font-family: 'Oswald', sans-serif;
 
 }
 
+
+.SoyYo p {
+  font-size: 72px;
+  font-weight: 200;
+}
 .SoyYo h1{
   font-size: 72px;
-}
+  color: #FC011F;
 
 }
-.SoyYo span{
-  font-size: 72px
 
+.SoyYo hr{
+  height: 0px;
+    border: none;
+    border-top: 2px solid white;
 }
+
+
+
+.fontABoutMe p{
+  font-weight: 600;
+}
+
+
 
 .interline{
   line-height:35px;
@@ -39,18 +58,23 @@ header{
 .MiExperiencia h2{
   font-family: 'Oswald', sans-serif;
   font-size: 52px;
+  font-weight: bold;
 }
 
 #ExperienciaRodrigo{
 padding-top: 70px;
 
 }
+
+
 .colorIcons i{
-  color: #660066;
+  /* color: #660066; */
+  color: #FC011F;
 }
 .colorIcons h3{
   font-family: 'Oswald', sans-serif;
   font-size: 25px;
+  font-weight: 600;
   ;
 }
 
@@ -60,18 +84,30 @@ padding-top: 70px;
 }
 
 .colorCards{
-  background-color: #660066;
+  /* background-color: #660066; */
+  background-color: #FC011F;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 400;
 }
 
 .colorCards h2{
-  font-family: 'Oswald', sans-serif;
   font-size: 52px;
 }
+
 
 .colorCards hr{
   height: 0px;
     border: none;
     border-top: 2px solid white;
+}
+
+.card-title{
+  font-weight: 400;
+}
+
+.card-text{
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 300;
 }
 
 .MiExperiencia hr {
@@ -83,6 +119,7 @@ padding-top: 70px;
 .formularioLetra h2 {
   font-family: 'Oswald', sans-serif;
   font-size: 52px;
+  font-weight: bold;
 }
 
 .formularioLetra hr {
@@ -92,7 +129,7 @@ padding-top: 70px;
 }
 
 footer{
-  height: 120px
+  height: 180px;
 
 
 }
@@ -101,6 +138,7 @@ footer h2 {
 
   font-family: 'Oswald', sans-serif;
   font-size: 40px;
+  font-weight: bold;
 
   display: inline-block;
   vertical-align: baseline;
@@ -130,4 +168,19 @@ footer i {
 
 .formularioLetra h2{
   font-size:35px;}
+
+footer h2{
+  font-size: 30px;
+}
+.SoyYo p{
+  font-size: 40px;
+}
+.SoyYo h1{
+  font-size: 40px;
+}
+
+.SoyYo hr{
+  width: 50%;
+}
+
 }
