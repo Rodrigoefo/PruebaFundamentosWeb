@@ -1,11 +1,18 @@
 body{
 
 
-font-family: 'Open Sans', sans-serif;
+  font-family: 'Open Sans', sans-serif;
 }
 
 .fondoNav,  footer{
   background-color: #000000;
+}
+
+#logo {
+  font-family: 'Oswald', sans-serif;
+  font-size: 40px;
+  font-weight: bold;
+  padding-left: 40px;
 }
 
 header{
@@ -39,8 +46,8 @@ header{
 
 .SoyYo hr{
   height: 0px;
-    border: none;
-    border-top: 2px solid white;
+  border: none;
+  border-top: 2px solid white;
 }
 
 
@@ -62,7 +69,7 @@ header{
 }
 
 #ExperienciaRodrigo{
-padding-top: 70px;
+  padding-top: 70px;
 
 }
 
@@ -86,8 +93,8 @@ padding-top: 70px;
 .colorCards{
   /* background-color: #660066; */
   background-color: #FC011F;
-    font-family: 'Oswald', sans-serif;
-    font-weight: 400;
+  font-family: 'Oswald', sans-serif;
+  font-weight: 400;
 }
 
 .colorCards h2{
@@ -97,8 +104,8 @@ padding-top: 70px;
 
 .colorCards hr{
   height: 0px;
-    border: none;
-    border-top: 2px solid white;
+  border: none;
+  border-top: 2px solid white;
 }
 
 .card-title{
@@ -112,8 +119,8 @@ padding-top: 70px;
 
 .MiExperiencia hr {
   height: 0px;
-    border: none;
-    border-top: 2px solid black;
+  border: none;
+  border-top: 2px solid black;
 }
 
 .formularioLetra h2 {
@@ -124,8 +131,8 @@ padding-top: 70px;
 
 .formularioLetra hr {
   height: 0px;
-    border: none;
-    border-top: 2px solid black;
+  border: none;
+  border-top: 2px solid black;
 }
 
 footer{
@@ -160,27 +167,27 @@ footer i {
 }
 
 @media only screen and (max-width: 600px) {
-.MiExperiencia h2{
-  font-size: 35px;}
+  .MiExperiencia h2{
+    font-size: 35px;}
 
-.colorCards h2 {
-  font-size: 35px;}
+    .colorCards h2 {
+      font-size: 35px;}
 
-.formularioLetra h2{
-  font-size:35px;}
+      .formularioLetra h2{
+        font-size:35px;}
 
-footer h2{
-  font-size: 30px;
-}
-.SoyYo p{
-  font-size: 40px;
-}
-.SoyYo h1{
-  font-size: 40px;
-}
+        footer h2{
+          font-size: 30px;
+        }
+        .SoyYo p{
+          font-size: 40px;
+        }
+        .SoyYo h1{
+          font-size: 40px;
+        }
 
-.SoyYo hr{
-  width: 50%;
-}
+        .SoyYo hr{
+          width: 50%;
+        }
 
-}
+      }
