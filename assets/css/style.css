@@ -5,11 +5,11 @@ font-family: 'Open Sans', sans-serif;
 }
 
 .fondoNav,  footer{
-  background-color: #660066;
+  background-color: #343a40;
 }
 
 header{
-  background-image: url('../img/bg_hero.png');
+  background-image: url('../img/DestacadaColor.jpg');
   background-repeat: no-repeat;
   background-size: cover;
   height:100vh;
@@ -41,7 +41,10 @@ header{
   font-size: 52px;
 }
 
+#ExperienciaRodrigo{
+padding-top: 70px;
 
+}
 .colorIcons i{
   color: #660066;
 }
@@ -105,4 +108,15 @@ footer a {
 
 footer i {
   padding: 8px;
+}
+
+@media only screen and (max-width: 600px) {
+.MiExperiencia h2{
+  font-size: 35px;}
+
+.colorCards h2 {
+  font-size: 35px;}
+
+.formularioLetra h2{
+  font-size:35px;}
 }
